@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/utdid/1.1.0.16/utdid.zip" }
   s.vendored_frameworks = 'utdid/UTDID.framework'
+  s.dependency	'ZipArchive'
 end
